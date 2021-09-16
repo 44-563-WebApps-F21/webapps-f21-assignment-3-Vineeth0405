@@ -3,6 +3,7 @@
 <head> 
 <title>About Myself</title>
 <body>
+    <a href="./bonus.html">Bonus</a>
  <h1>Vineeth Reddy Naredla</h1>
  <h1> NEW NEWORK</h1>
      <P>New York is the most ethnically diverse, religiously varied, commercially driven, famously congested, and
@@ -77,9 +78,23 @@
 </table>
 
 <hr>
- <pre>
-     <h1>Finding a negative cycle in the graph</h1> 
 
+     <h1>Finding a negative cycle in the graph</h1> 
+     <blockquote>
+        The Bellman–Ford algorithm is an algorithm that computes shortest paths from a 
+        single source vertex to all of the other vertices in a weighted digraph.[1] It 
+        is slower than Dijkstra's algorithm for the same problem, but more versatile, 
+        as it is capable of handling graphs in which some of the edge weights are 
+        negative numbers. The algorithm was first proposed by Alfonso Shimbel (1955), 
+        but is instead named after Richard Bellman and Lester Ford Jr., who published 
+        it in 1958 and 1956, respectively.[2] Edward F. Moore also published a variation 
+        of the algorithm in 1959, and for this reason it is also sometimes called the 
+        Bellman–Ford–Moore algorithm.
+
+     </blockquote>
+     <a href ="https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm"> CLICK</a>
+
+     <pre>
      struct Edge {
         int a, b, cost;
     };
@@ -103,8 +118,7 @@
                 }
             }
         }
-        <blockquote cite.. = "https://cp-algorithms.com/graph/finding-negative-cycle-in-graph.html">
-           
+       
         if (x == -1) {
             cout << "No negative cycle found.";
         } else {
@@ -123,7 +137,7 @@
             for (int v : cycle)
                 cout << v << ' ';
             cout << endl;
-        </blockquote>
+        
         }
     }
     
